@@ -2,20 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+a:hover {
+  text-decoration: underline;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+ol {
+  list-style-type: decimal;
+  padding-left: 3em;
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+section {
+  font-size: 0.9em;
 }
