@@ -4,16 +4,11 @@ import { FaXTwitter } from "react-icons/fa6";
 
 export default function Home() {
   return (
-    <div className="h-5/6 w-[50vw] mt-16 m-auto">
-      <section className="flex justify-between">
+    <div className="h-5/6 w-full max-w-2xl my-14 mx-auto px-4">
+      <section className="flex flex-wrap justify-between">
         <h3 className="text-3xl font-semibold">Rwitesh Bera</h3>
-        <p className="mt-1">
-          <a href="https://en.wikipedia.org/wiki/Kolkata" target="_blank">
-            Kolkata, India
-          </a>
-        </p>
       </section>
-      <section className="flex items-center gap-4 mt-2">
+      <section className="flex flex-wrap items-center gap-4 mt-2">
         <span className="text-gray-600">Find me on:</span>
         <a
           href="https://github.com/rwiteshbera"
@@ -64,15 +59,12 @@ export default function Home() {
       <section className="mt-4 text-base">
         <h6 className="text-lg font-semibold text-green-500">Experience</h6>
         <div className="relative ml-2 mt-2">
-          {/* Timeline line */}
           <div className="absolute left-0 top-2 h-full w-[2px] bg-gray-200"></div>
 
-          {/* Experience Items */}
           <div className="space-y-6">
-            {/* KloudMate */}
             <div className="relative pl-6">
               <div className="absolute left-[-5px] top-2 h-3 w-3 rounded-full bg-green-500"></div>
-              <div className="flex items-baseline justify-between">
+              <div className="flex flex-wrap justify-between">
                 <h4 className="font-medium">KloudMate</h4>
                 <span className="text-sm text-gray-500">
                   Jan,2025 - Present
@@ -86,10 +78,9 @@ export default function Home() {
               </p>
             </div>
 
-            {/* Previous Company (Example) */}
             <div className="relative pl-6">
               <div className="absolute left-[-5px] top-2 h-3 w-3 rounded-full bg-green-500"></div>
-              <div className="flex items-baseline justify-between">
+              <div className="flex flex-wrap justify-between">
                 <h4 className="font-medium">
                   Meridian Solutions Pvt. Ltd.
                 </h4>
@@ -109,7 +100,7 @@ export default function Home() {
       </section>
       <section className="mt-4 text-justify">
         <h6 className="text-lg font-semibold text-green-500">Interests</h6>
-        <ol>
+        <ol className="list-disc pl-4">
           <li>Trying out new apps and tech just for fun.</li>
           <li>Getting lost in a good book.</li>
           <li>Travelling</li>
@@ -117,7 +108,7 @@ export default function Home() {
       </section>
       <section className="mt-4">
         <h6 className="text-lg font-semibold text-green-500">Projects</h6>
-        <ol>
+        <ol className="list-disc pl-4">
           <li>
             <a href="https://github.com/rwiteshbera/rapidgo" target="_blank">
               RapidGo - Fast, minimalist web framework for GoLang
