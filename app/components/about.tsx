@@ -7,7 +7,7 @@ export default function About() {
       <p>
         I am a Software Engineer based in India. Currently, I work at{" "}
         <Link to="https://www.kloudmate.com/" name="KloudMate" className="underline" />
-        .  I enjoy designing applications, understanding systems at a deeper level, and making them more reliable. With a Bachelor degree in Computer Science and Engineering, I am always experimenting, refining my approaches, and finding smarter ways to build software.
+        . I am curious about technlogy and enjoy building programs that solve real problems. I like designing applications, understanding how things work under the hood, and making software more reliable. When I am not learning, you will probably find me spending time alone or hanging out with friends.
       </p>
     </Section>
   );
